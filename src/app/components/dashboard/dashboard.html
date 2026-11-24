@@ -1,0 +1,49 @@
+<mat-toolbar color="primary">
+  <span>{{getUsername()}}</span>
+</mat-toolbar>
+
+<div class="dashboard-container">
+
+  <h2>Welcome to Dashboard!</h2>
+
+  <div class="dashboard-cards">
+
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Users</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <h1>{{usersCount}}</h1>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary">View Users</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Products</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <h1>85</h1>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary">View Products</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Orders</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <h1>250</h1>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button color="primary">View Orders</button>
+      </mat-card-actions>
+    </mat-card>
+
+  </div>
+
+</div>
